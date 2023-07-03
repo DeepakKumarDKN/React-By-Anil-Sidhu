@@ -1,0 +1,84 @@
+Component in React
+--------------------
+. A peice of code that can reuse such as function. 
+. more powerful than function
+. header , footer is the best Example.
+componet can be reused in the same page as well as in the different pages.
+
+
+Types Of Component
+-------------------
+Functional Component 
+Class Component
+Higher order Component
+Pure Component 
+Controlled Component
+Uncontrolled Component
+
+
+function User(){
+    return(
+        <h1>Hello User</h1>
+    )
+}
+
+export default User;
+// export is mandatory.
+
+if we are creating a functional conponent / react component then it will return somthing 
+
+
+// Adding more than one element then we have to enclosed it within div  for Example:
+
+function User(){
+    return(
+        <div>
+            <h1>Hello User One</h1>
+            <h2>Hello User Two</h2>
+        </div>
+        
+    )
+}
+
+
+export default User;
+
+
+=> Writting export default User is  mandatory but still of we dont want to write 
+then we have to write something like this . 
+
+//User.js
+ export function User(){
+    return(
+        <div>
+            <h1>Hello User One</h1>
+            <h2>Hello User Two</h2>
+        </div>
+        
+    )
+}
+
+// App.js
+import logo from './logo.svg';
+import './App.css'; 
+import {User} from './User';
+
+
+function App() {
+  return (
+    <div className="App">
+      <User/>
+    </div>
+  );
+}
+
+export default App;
+
+Note: 
+Done two changes in User.js and App.js
+    1. creating a functional component with export : 
+        export function User(){
+
+        }
+    2. In App.js enclosed the User inside the curly braces like: 
+        import {User} from './User';
