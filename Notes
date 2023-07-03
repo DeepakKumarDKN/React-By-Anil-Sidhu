@@ -42,3 +42,44 @@ and the package-lock.json keeps the history of the packages in detail.
 3.) .gitignore
 ---------------
 it will ignore those files which we dont want to commit
+
+Index.js
+--------
+This is the entry point of the React.
+
+Public
+------
+Public keep the html files which doesnt relate to react / which does not have any connection with React.
+
+Manifest.json
+--------------
+This is used during making progressive apps.
+
+Node Modules
+-------------
+All the packages are getting store inside the Node Modules.
+
+We dont do any work with node modules and there is a reason behind it because whenever we will install npm we can get nodu module.
+
+
+Questions
+---------
+1. The Most Important File: 
+A) Package.json
+
+
+2) Why dont we push node module in git
+A) Because it is itself a heavy module and it actually doesnt required to push. 
+
+and if somebody wants the node module folder then he/she can just install npm start because as we know that whever we install install npm the node module is something which we will get automatically.
+
+and one this is if aleady we hae install npm and if second time we are going to install then forst it wil check that what are the things which is needed 
+
+to get install and will install only those things not each and every thins will get installed.
+
+3) How to install a new package. 
+A) npm install packagename
+
+4) How to install a new package 
+A) npm uninstall packagename
+
