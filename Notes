@@ -1,0 +1,44 @@
+NPM: Node Package Manager, and it manages all the packages which ae inside the node modules.
+If we want to install any package then we can write : npm install package-name
+here it will not download anything the installation will happen automatically.
+
+
+if we want to create any file name then we can do it by writting :- Example.js  
+the first letter will always be Capital.
+
+File and Folder Structure
+-------------------------
+1.) package.json : 
+----------------
+anything which are we installing any  all we will get to know inside he package.json. 
+if somebody wants to know we are working on which we are working right now 
+
+then we can go inside the package.json and there we can get to know the version its one of the imporatant file. 
+
+
+
+2.) package-lock.json
+---------------------
+it keeps the history of the packages for Example: 
+
+"node_modules/@babel/compat-data": {
+    "version": "7.22.5",
+    "resolved": "https://registry.npmjs.org/@babe   compat-data/-/compat-data-7.22.5.tgz",
+      "integrity": "sha512-4J   YuIaYqKnDDz892kPIledykKg12Aw1PYX5  TY28anJtacvM1Rrr8wbieB9GfEJwlzqT0hUEao0CxEebiD    =",
+    "engines": {
+        "node": ">=6.9.0"
+}
+
+So this is a package  it keeps all the indo such as 
+    . version name
+    . resolved (from where it is installed)
+    . integrity
+
+
+so the package.json keep the details of the application 
+
+and the package-lock.json keeps the history of the packages in detail.
+
+3.) .gitignore
+---------------
+it will ignore those files which we dont want to commit
