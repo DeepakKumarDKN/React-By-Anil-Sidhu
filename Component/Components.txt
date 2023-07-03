@@ -16,6 +16,10 @@ Controlled Component
 Uncontrolled Component
 
 
+Functional Compnent:
+--------------------
+No need of writting render in the functional Component 
+
 function User(){
     return(
         <h1>Hello User</h1>
@@ -82,3 +86,11 @@ Done two changes in User.js and App.js
         }
     2. In App.js enclosed the User inside the curly braces like: 
         import {User} from './User';
+
+Q) Can i create more than one component inside an component 
+A) Yes
+
+
+Class Component
+----------------
+in class Componet we hae to use render which is not used in functional component.
