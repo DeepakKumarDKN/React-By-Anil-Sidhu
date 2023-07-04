@@ -31,4 +31,8 @@ export default App;
 //<button onClick = {()=>{setState('PeterParker')}}>Click Here To Change The Name</button>
 // if we are writting like this then there is no need of creating a function.
 
+// InterView Quesion 
+// Can we use useState inside the class component. 
+// The answer is no we cannot use useState inside the classComponent.
+
 
