@@ -14,14 +14,29 @@ function App() {
     data = 'Harry Potter'
     setData(data)
   }
+
+  let [number1, setNumberOne] = useState(0)
+  let [number2, setNumberTwo] = useState(0)
+  let [total, setTotal] = useState(null)
+  function AddData(){
+    number1 = 10 
+    setNumberOne(number1)
+
+    number2 = 40 
+    setNumberTwo(number2)
+
+    setTotal(total = number1+ number2)
+  }
+
+
+
   return (
 
     <div className="App">
-      <h2>{count}</h2>
-      <button onClick = {increaseCount}>Click Here</button>
-
-      <h1>{data}</h1>
-      <button onClick = {updateData}>Click Here To Update the Name</button>
+      <button onClick = {AddData}>Total : {total}</button><br />
+      <button onClick = {increaseCount}>Click Here : {count}</button><br />
+      <button onClick = {updateData}>Update the Name : {data}</button><br/>
+      
     </div>
   );
 }
