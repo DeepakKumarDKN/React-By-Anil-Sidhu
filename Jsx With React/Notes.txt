@@ -3,5 +3,5 @@ Write Javascript and HTML Together:
 1st of all we cannot write javascript inside the html for that we hae to create and script.
 and inside the script we hae to write the javascript code and add that script inside the HTML. 
 
-But react allow you to write html and javascript together baceuse JSX Allow us to write.
+But react allow you to write html and javascript together because JSX Allow us to write.
 
