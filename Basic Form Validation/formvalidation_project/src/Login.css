@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+.form{
+    border: 1px solid black;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.login-btn{
+    display:block;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: "Poppins";
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(10, 167, 246);
+    color:white;
+}
+
+.fontFamily{
+    font-family:"Poppins";
+}
+
+.form input[type="text"]{
+    font-family: Poppins;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
