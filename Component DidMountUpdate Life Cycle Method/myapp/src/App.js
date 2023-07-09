@@ -7,19 +7,16 @@ class App extends Component{
 
   constructor(){
     super();
-    console.warn('constructor')
     this.state = {
       name:'deepak',
       email:'deepak1234@gmail.com'
     }
   }
 
-  componentDidUpdate(){
-    console.warn('Component did update')
+  componentDidUpdate(preValue, preState, snapshot){
+    console.log(preState.name, this.state.name)
   }
-
   render(){
-    console.warn('render')
     return(
       <div className ="App">
         <h1>Component Did Update Life Cycle Method</h1>
