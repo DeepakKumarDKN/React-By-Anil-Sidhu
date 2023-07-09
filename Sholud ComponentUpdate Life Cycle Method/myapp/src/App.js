@@ -22,8 +22,8 @@ class App extends Component{
     // if you want to update it then you have to write return true instead of 
     // return false
 
-    // here i hae applied some condition we can also perfom operation like that 
-    // executinh with some random conditions.
+    // here i have applied some condition we can also perfom operation like that 
+    // execute with some random conditions.
   }
   render(){
     return(
