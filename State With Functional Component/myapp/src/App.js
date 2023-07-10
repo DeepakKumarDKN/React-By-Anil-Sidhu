@@ -46,6 +46,9 @@ export default App;
 
 // What is State.? 
 // State is basically an object in which we can save some data like we used to save in variable.
+// state is basically used in a component
+// we can use state in functional component
+// for functional component it is useState and for Class Component it is this.state
 
 // why do we use state not variable. 
 // because if we use variable our componet will not get updated as we have seen in the previous example.
