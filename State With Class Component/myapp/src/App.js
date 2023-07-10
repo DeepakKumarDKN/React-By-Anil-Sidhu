@@ -26,3 +26,6 @@ class App extends Component{
 }
 
 export default App;
+
+// this.state is used in class Component
+// but in functional component there is no need of use this.component
