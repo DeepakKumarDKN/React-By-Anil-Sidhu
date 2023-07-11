@@ -1,0 +1,19 @@
+useEffect:
+----------
+Jaise class component ke andar hamare pass life cycle methods thhey
+constructor, should component update, component did mount tha etc etc.
+
+thik ussi tarah functional componet ke andar hamare paas ek hook hota hai
+useEffect, yeah use hota hai as a life cycle method jab bhi hamara 
+component banega tab run hoga useEffect.
+
+but ham esko condition lagake bhi call kar sakhte hai jaise ki jab component banega
+tab call hoya ya phir jab state banega tab call hoga ya nahi  etc etc.
+
+in this project we will get to know how to use useEfccet without any condition
+
+
+Jiae componet did mount hota tha jab bji refresh karenge tab call hota tha ,
+thil usssi tarah jab bhi ham referesh karenge tab hamara useEffect call chalega
+
+we cannot use hooks inside the class Component
