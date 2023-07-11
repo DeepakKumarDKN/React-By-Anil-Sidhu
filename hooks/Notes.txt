@@ -1,0 +1,12 @@
+If we want to use hooks then it can be done inside the functional Components
+
+When we are talking about classComponents then it does have a lot of inbuilt featue like  ,
+state, life cycle methods and pue components, But in functional component
+we will not get all these inbuilt features , but still we can use them with 
+the help of hooks 
+
+
+
+useState is a hook with the help of which we can create a hook
+wherever you see use is written and before use something like State,Effect etc ⏲
+thes are called hooks.
