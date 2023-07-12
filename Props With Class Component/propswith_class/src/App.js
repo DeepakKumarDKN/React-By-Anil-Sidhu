@@ -31,7 +31,7 @@ class App extends Component{
 
 export default App
 
-
+// basically it is used in component to render data.
 // when i want to transfer data from one component to another then we will use props.
 // jaise app ek function ke andar parameter pass kate hein waise hi ham ek component ke andar 
 // props ko pass karenge
