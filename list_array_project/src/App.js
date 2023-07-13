@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {Table} from 'react-bootstrap'
 
 function App() {
 
@@ -42,9 +43,14 @@ function App() {
         } */}
 
         <table style= {{margin: '0 auto' , border:"1px solid black", padding: '10px', backgroundColor : '#98AFC7'}}>
+          <tr>
+            <th style={{color:'black', fontSize: '18px'}}>Name</th>
+            <th style={{color:'black', fontSize: '18px'}}>Email</th>
+            <th style={{color:'black', fontSize: '18px'}}>Mobile</th>
+          </tr>
           {
-            BioData.map((e)=>(
-              <tr>
+            BioData.map((e,i)=>(
+              <tr key={i}>
                 <td style={{border: "1px solid white", padding:"10px", color: "white"}}>{e.name}</td>
                 <td style={{border: "1px solid white", padding:"10px", color: "white"}}>{e.mobile}</td>
                 <td style={{border: "1px solid white", padding:"10px", color: "white"}}>{e.email}</td>
