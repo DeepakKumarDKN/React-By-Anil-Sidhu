@@ -28,3 +28,9 @@ function App() {
 }
 
 export default App;
+
+// no need of using anchor tag because react is usually used for creating single page application 
+// and in single page application if we will use the anchor tag then it will reload the page 
+// which is not required.
+
+//
