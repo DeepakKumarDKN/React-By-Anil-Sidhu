@@ -1,23 +1,27 @@
 .App {
   text-align: center;
 }
-.Navbar{
-  display:flex;
-  justify-content: space-around;
-  line-height: 50px;
-  font-family: "Poppins";
 
+.Navbar{
+  text-align: right;
 }
 
 
 .Navbar li{
-  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
 }
 
 .Navbar Link{
   text-decoration: none
 }
 
+.navlink{
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  color: rgb(16, 16, 16);
+}
 .contact-us{
   display:flex;
   justify-content: space-between;
