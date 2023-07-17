@@ -1,0 +1,34 @@
+We can use redux any where ,i can use react with angular with vue as well but mostly it is used with React.
+
+Redux is a container where we can store our whole application data kind of array, 
+
+we actually called is state management.
+state mean sara ka sara data ek jagah pe save karna.
+
+Redux doesnot belong to component and state.
+
+Redux Architecture
+------------------
+4 main pillars of Redux Architecture
+1. View
+2. Action
+3. Reducer
+4. Store
+
+View is what we can see for example Button, Radio Buttons, checkBox etc etc.
+
+Action : Collect Data from Component or API
+for example Login so to login we need some data 
+so that we can login.
+
+
+Reducer: Now what reducer will do to receive the data from the action and send it to store. it also filters the data.
+
+Store: Store contain the state of complete application.
+state mean pura ka pura data.
+
+Question:
+-----------
+Q) In one Redux Application can we make two store:
+A) No we cannot. One Application One Store.
+
